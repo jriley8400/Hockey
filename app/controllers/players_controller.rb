@@ -6,11 +6,13 @@ class PlayersController < ApplicationController
 
   def show
     @player = Player.find_by(id: params[:id]) 
-    @player.image = params[:image]
+    @teams = Team.where(player_id: @player.id )
+
 
   end
 
   def new
+    @teams = Team.all
   end
 
   def create
@@ -18,7 +20,7 @@ class PlayersController < ApplicationController
     @player.bio = params[:bio]
     @player.stat = params[:stat]
     @player.name = params[:name]
-    @player.image = params[:image]
+    @player.team_id = params[:team_id]
 
     if @player.save
       redirect_to "/players/#{ @player.id }"

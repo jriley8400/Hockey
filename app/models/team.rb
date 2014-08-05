@@ -1,3 +1,3 @@
 class Team < ActiveRecord::Base
-  has_many :nplayers
+  has_many :players
 end

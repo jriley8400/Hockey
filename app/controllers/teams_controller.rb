@@ -6,6 +6,7 @@ class TeamsController < ApplicationController
 
   def show
     @team = Team.find_by(id: params[:id])
+    @players = Player.where(team_id: @team.id )
   end
 
   def new
@@ -16,6 +17,8 @@ class TeamsController < ApplicationController
     @team.coach = params[:coach]
     @team.bio = params[:bio]
     @team.name = params[:name]
+    @team.player_id = params[:player_id]
+
 
     if @team.save
       redirect_to "/teams/#{ @team.id }"

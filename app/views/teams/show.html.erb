@@ -10,8 +10,8 @@
 </div>
 <h3><strong>Players:</strong></h3>
 <ul>
-  <% @team.nplayers.each do |nplayer| %>
-  <li><a href="/players/<%= nplayer.player_id %>"><%= nplayer.player_id %></a></li>
+  <% @team.players.each do |player| %>
+  <li><a href="/players/<%= player.id %>"><%= player.name %></a></li>
   <% end %>
 </ul>  
 <button><a href="/teams/<%= @team.id %>/edit">Edit</a></button>

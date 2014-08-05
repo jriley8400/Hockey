@@ -9,6 +9,14 @@
     <label for="bio">bio</label><br />
      <textarea id="bio" name="bio" type="text" cols="40" rows="4"></textarea>
   </div>
+   <div>
+    <label for="team_id">Team</label><br />
+    <select name="team_id">
+      <% @teams.each do |team| %>
+      <option value="<%= team.id %>"><%= team.name %></option>
+      <% end %>
+    </select>
+ </div>
   <div>
     <input type="submit">
   </div>

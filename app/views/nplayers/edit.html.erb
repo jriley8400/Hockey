@@ -1,0 +1,17 @@
+<h1>Editing Nplayer #<%= @nplayer.id %></h1>
+
+<form action="/nplayers/<%= @nplayer.id %>/update">
+  <div>
+    <label for="player_id">player_id</label><br />
+    <input id="player_id" name="player_id" value="<%= @nplayer.player_id  %>" type="text" />
+  </div>
+  <div>
+    <label for="team_id">team_id</label><br />
+    <input id="team_id" name="team_id" value="<%= @nplayer.team_id  %>" type="text" />
+  </div>
+  <div>
+    <input type="submit">
+  </div>
+</form>
+
+

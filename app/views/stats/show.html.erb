@@ -1,0 +1,17 @@
+<h1>Stat #<%= @stat.id %></h1>
+
+<div>
+  <strong>Shot</strong>:<br />
+  <p><%= @stat.shot %></p>
+</div>
+<div>
+  <strong>Skate</strong>:<br />
+  <p><%= @stat.skate %></p>
+</div>
+<div>
+  <strong>Check</strong>:<br />
+  <p><%= @stat.check %></p>
+</div>
+
+<button><a href="/stats/<%= @stat.id %>/edit">Edit</a></button>
+<button><a href="/stats/<%= @stat.id %>/destroy">Destroy</a></button>

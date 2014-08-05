@@ -1,0 +1,21 @@
+<h1>Editing Stat #<%= @stat.id %></h1>
+
+<form action="/stats/<%= @stat.id %>/update">
+  <div>
+    <label for="shot">shot</label><br />
+    <input id="shot" name="shot" value="<%= @stat.shot  %>" type="text" />
+  </div>
+  <div>
+    <label for="skate">skate</label><br />
+    <input id="skate" name="skate" value="<%= @stat.skate  %>" type="text" />
+  </div>
+  <div>
+    <label for="check">check</label><br />
+    <input id="check" name="check" value="<%= @stat.check  %>" type="text" />
+  </div>
+  <div>
+    <input type="submit">
+  </div>
+</form>
+
+

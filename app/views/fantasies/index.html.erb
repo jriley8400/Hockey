@@ -1,0 +1,28 @@
+<h1>Fantasies</h1>
+
+<p><a href="/new_fantasy">Add a New Fantasy Team</a></p>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>User</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+  <% @fantasies.each do |fantasy| %>
+    <tr>
+          <td><%= fantasy.name %></td>
+      <td><%= fantasy.user_id %></td>
+          <td><button><a href="/fantasies/<%= fantasy.id %>">Show</a></button></td>
+      <td><button><a href="/fantasies/<%= fantasy.id %>/edit">Edit</a></button></td>
+      <td><button><a href="/fantasies/<%= fantasy.id %>/destroy">Destroy</a></button></td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
+

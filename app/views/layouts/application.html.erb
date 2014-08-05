@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <title>Hockey</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div>
+    <% if session['username'] %>
+    <% u = User.find_by_name(session['username']) %>
+    You're signed in, <%= u.name %>
+    <button><a href="/sessions/destroy">Sign Out</a></button>
+    <% else %>
+      <button><a href="/sessions/new">Sign In</a></button>
+      <button><a  href="/new_user">Sign Up</a></button>
+    <% end %>
+  </div>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/teams">NHL Teams</a>
+      <a class="navbar-brand" href="/fantasies">Fantasy Teams</a>
+      <a class="navbar-brand" href="/new_team">New Team</a>
+      <a class="navbar-brand" href="/new_fantasy">New Fantasy Team</a>
+      <a class="navbar-brand" href="/new_nplayer">New NHL Player</a>
+      <a class="navbar-brand" href="/new_player">New Player</a>         
+      <a class="navbar-brand" href="/players">Players</a>
+            <a class="navbar-brand" href="/new_nplayer">New NHL Player</a>
+
+    </div>
+  </div>
+ </nav>
+<%= yield %>
+
+</body>
+</html>

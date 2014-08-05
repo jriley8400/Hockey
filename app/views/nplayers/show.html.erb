@@ -1,0 +1,13 @@
+<h1>Nplayer #<%= @nplayer.id %></h1>
+
+<div>
+  <strong>Player</strong>:<br />
+  <p><%= @nplayer.player_id %></p>
+</div>
+<div>
+  <strong>Team</strong>:<br />
+  <p><%= @nplayer.team_id %></p>
+</div>
+
+<a href="/nplayers/<%= @nplayer.id %>/edit">Edit</a> |
+<a href="/nplayers/<%= @nplayer.id %>/destroy">Destroy</a>

@@ -1,0 +1,13 @@
+<h1>Fplayer #<%= @fplayer.id %></h1>
+
+<div>
+  <strong>Player</strong>:<br />
+  <p><%= @fplayer.player_id %></p>
+</div>
+<div>
+  <strong>Fantasy</strong>:<br />
+  <p><%= @fplayer.fantasy_id %></p>
+</div>
+
+<a href="/fplayers/<%= @fplayer.id %>/edit">Edit</a> |
+<a href="/fplayers/<%= @fplayer.id %>/destroy">Destroy</a>

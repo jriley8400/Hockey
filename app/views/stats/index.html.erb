@@ -1,0 +1,31 @@
+<h1>Stats</h1>
+
+<p><a href="/new_stat">Add a New Stat</a></p>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Shot</th>
+      <th>Skate</th>
+      <th>Check</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+  <% @stats.each do |stat| %>
+    <tr>
+          <td><%= stat.shot %></td>
+          <td><%= stat.skate %></td>
+          <td><%= stat.check %></td>
+          <td><button><a href="/stats/<%= stat.id %>">Show</a></button>
+        </td>
+      <td><button><a href="/stats/<%= stat.id %>/edit">Edit</a></button></td>
+      <td><button><a href="/stats/<%= stat.id %>/destroy">Destroy</a></button></td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
+

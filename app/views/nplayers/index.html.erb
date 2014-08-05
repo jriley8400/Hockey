@@ -1,0 +1,29 @@
+<h1>Nplayers</h1>
+
+<p><a href="/new_nplayer">Add a New Nplayer</a></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Player</th>
+      <th>Team</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+  <% @nplayers.each do |nplayer| %>
+    <tr>
+          <td><%= nplayer.player_id %></td>
+          <td><%= nplayer.team_id %></td>
+          <td><a href="/nplayers/<%= nplayer.id %>">Show</a>
+        </td>
+      <td><a href="/nplayers/<%= nplayer.id %>/edit">Edit</a></td>
+      <td><a href="/nplayers/<%= nplayer.id %>/destroy">Destroy</a></td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
+

@@ -1,0 +1,8 @@
+<h1><%= @player.name %></h1>
+
+<div>
+  <h3>Bio:</h3>
+  <h3><%= @player.bio %></h3>
+</div>
+<button><a href="/players/<%= @player.id %>/edit">Edit</a></button>
+<button><a href="/players/<%= @player.id %>/destroy">Destroy</a></button>

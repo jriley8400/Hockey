@@ -1,0 +1,17 @@
+<h1>Editing Fplayer #<%= @fplayer.id %></h1>
+
+<form action="/fplayers/<%= @fplayer.id %>/update">
+  <div>
+    <label for="player_id">player_id</label><br />
+    <input id="player_id" name="player_id" value="<%= @fplayer.player_id  %>" type="text" />
+  </div>
+  <div>
+    <label for="fantasy_id">fantasy_id</label><br />
+    <input id="fantasy_id" name="fantasy_id" value="<%= @fplayer.fantasy_id  %>" type="text" />
+  </div>
+  <div>
+    <input type="submit">
+  </div>
+</form>
+
+

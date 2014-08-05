@@ -1,0 +1,18 @@
+<div class="jumbotron">
+  <h1><%= @team.name %></h1>
+  <p> <strong>Bio</strong>:<br /></p>
+  <p><%= @team.bio %></p>
+</div>
+<div>
+  <h2>
+    <strong>Coach:</strong></h2>
+  <h3><%= @team.coach %></h3>
+</div>
+<h3><strong>Players:</strong></h3>
+<ul>
+  <% @team.nplayers.each do |nplayer| %>
+  <li><a href="/players/<%= nplayer.player_id %>"><%= nplayer.player_id %></a></li>
+  <% end %>
+</ul>  
+<button><a href="/teams/<%= @team.id %>/edit">Edit</a></button>
+<button><a href="/teams/<%= @team.id %>/destroy">Destroy</a></button>

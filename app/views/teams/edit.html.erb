@@ -1,0 +1,21 @@
+<h1>Editing <%= @team.name %></h1>
+
+<form action="/teams/<%= @team.id %>/update">
+  <div>
+    <label for="name">Name</label><br />
+    <input id="name" name="name" value="<%= @team.name  %>" type="text" />
+  </div>
+  <div>  
+    <label for="coach">Coach</label><br />
+    <input id="coach" name="coach" value="<%= @team.coach  %>" type="text" />
+  </div>
+  <div>
+    <label for="bio">Bio</label><br />
+    <textarea id="bio" name="bio" type="text" cols="40" rows="4"><%= @team.bio %></textarea>
+  </div>
+  <div>
+    <input type="submit">
+  </div>
+</form>
+
+

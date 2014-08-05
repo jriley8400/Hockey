@@ -1,0 +1,29 @@
+<h1>Fplayers</h1>
+
+<p><a href="/new_fplayer">Add a New Fplayer</a></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Player</th>
+      <th>Fantasy</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+  <% @fplayers.each do |fplayer| %>
+    <tr>
+          <td><%= fplayer.player_id %></td>
+          <td><%= fplayer.fantasy_id %></td>
+          <td><a href="/fplayers/<%= fplayer.id %>">Show</a>
+        </td>
+      <td><a href="/fplayers/<%= fplayer.id %>/edit">Edit</a></td>
+      <td><a href="/fplayers/<%= fplayer.id %>/destroy">Destroy</a></td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
+

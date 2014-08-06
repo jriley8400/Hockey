@@ -9,10 +9,16 @@
   <h3><%= @team.coach %></h3>
 </div>
 <h3><strong>Players:</strong></h3>
-<ul>
+<div class="container">
+  <div class="row">
   <% @team.players.each do |player| %>
-  <li><a href="/players/<%= player.id %>"><%= player.name %></a></li>
+  <div class="col-md-3">
+    <h3><%= player.name %></h3>
+    <a href="/players/<%= player.id %>"><img src="<%= player.image %>"></a>
+    </div>
   <% end %>
-</ul>  
+  </div>
+</div>
+
 <button><a href="/teams/<%= @team.id %>/edit">Edit</a></button>
 <button><a href="/teams/<%= @team.id %>/destroy">Destroy</a></button>

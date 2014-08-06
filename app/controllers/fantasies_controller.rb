@@ -1,14 +1,16 @@
 class FantasiesController < ApplicationController
-
+  
   def index
     @fantasies = Fantasy.all
   end
 
   def show
-    @fantasy = Fantasy.find_by(id: params[:id])
+    @fantasy = Fantasy.find_by(id: params[:id]) 
+    @users = User.where(fantasy_id: @fantasy.id)
   end
 
   def new
+    @users = User.all
   end
 
   def create

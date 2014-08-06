@@ -4,10 +4,18 @@
  <div>
     <label for="name">name</label><br />
     <input id="name" name="name" value="<%= @player.name  %>" type="text" />
-  </div> 
+  </div>  
   <div>
     <label for="bio">bio</label><br />
     <input id="bio" name="bio" value="<%= @player.bio  %>" type="text" />
+  </div>
+    <div>
+    <label for="stat_id">stats</label><br />
+    <input id="stat_id" name="stat_id" value="<%= @player.stat_id  %>" type="text" />
+  </div>
+  <div>
+    <label for="image">Image URL</label><br />
+    <input id="image" name="image" value="<%= @player.image  %>" type="text" />
   </div>
   <div>
     <input type="submit">

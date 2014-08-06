@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140805185158) do
+ActiveRecord::Schema.define(version: 20140806181239) do
 
   create_table "fantasies", force: true do |t|
     t.string   "name"
@@ -23,7 +23,12 @@ ActiveRecord::Schema.define(version: 20140805185158) do
 
   create_table "fplayers", force: true do |t|
     t.integer  "player_id"
-    t.string   "fantasy_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "fantasy_id"
+  end
+
+  create_table "homes", force: true do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -37,21 +42,20 @@ ActiveRecord::Schema.define(version: 20140805185158) do
 
   create_table "players", force: true do |t|
     t.string   "bio"
-    t.string   "stat"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "name"
     t.string   "image"
     t.integer  "fantasy_id"
     t.integer  "team_id"
+    t.integer  "stat_id"
   end
 
   create_table "stats", force: true do |t|
-    t.integer  "shot"
-    t.integer  "skate"
-    t.integer  "check"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "player_id"
+    t.integer  "overall"
   end
 
   create_table "teams", force: true do |t|
@@ -69,6 +73,7 @@ ActiveRecord::Schema.define(version: 20140805185158) do
     t.datetime "updated_at"
     t.string   "password_digest"
     t.string   "email"
+    t.integer  "fantasy_id"
   end
 
 end

@@ -2,3 +2,12 @@ img {
   height: 200px;
   width: 150;
 }
+
+.logo {
+  height: 350px;
+  width: 450px;
+}
+
+.background {
+  background-color: black;
+}

@@ -16,8 +16,8 @@
   <tbody>
   <% @fplayers.each do |fplayer| %>
     <tr>
-          <td><%= fplayer.player_id %></td>
-          <td><%= fplayer.fantasy_id %></td>
+      <td><%= fplayer.player.name %></td>
+      <td><%= fplayer.fantasy.name %></td>
           <td><a href="/fplayers/<%= fplayer.id %>">Show</a>
         </td>
       <td><a href="/fplayers/<%= fplayer.id %>/edit">Edit</a></td>

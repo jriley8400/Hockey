@@ -17,7 +17,7 @@
   <% @fantasies.each do |fantasy| %>
     <tr>
           <td><%= fantasy.name %></td>
-      <td><%= fantasy.user_id %></td>
+      <td><%= fantasy.user.name %></td>
           <td><button><a href="/fantasies/<%= fantasy.id %>">Show</a></button></td>
       <td><button><a href="/fantasies/<%= fantasy.id %>/edit">Edit</a></button></td>
       <td><button><a href="/fantasies/<%= fantasy.id %>/destroy">Destroy</a></button></td>

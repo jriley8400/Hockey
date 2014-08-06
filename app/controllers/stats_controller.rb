@@ -9,13 +9,12 @@ class StatsController < ApplicationController
   end
 
   def new
+    @players = Player.all
   end
 
   def create
     @stat = Stat.new
-    @stat.shot = params[:shot]
-    @stat.skate = params[:skate]
-    @stat.check = params[:check]
+    @stat.overall = params[:overall]
 
     if @stat.save
       redirect_to "/stats/#{ @stat.id }"
@@ -30,9 +29,7 @@ class StatsController < ApplicationController
 
   def update
     @stat = Stat.find_by(id: params[:id])
-    @stat.shot = params[:shot]
-    @stat.skate = params[:skate]
-    @stat.check = params[:check]
+    @stat.overall = params[:overall]
 
     if @stat.save
       redirect_to "/stats/#{ @stat.id }"

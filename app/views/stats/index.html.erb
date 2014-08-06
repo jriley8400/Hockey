@@ -5,9 +5,9 @@
 <table class="table">
   <thead>
     <tr>
-      <th>Shot</th>
-      <th>Skate</th>
-      <th>Check</th>
+      <th>Overall</th>
+      <th></th>
+      <th></th>
       <th></th>
       <th></th>
       <th></th>
@@ -17,9 +17,7 @@
   <tbody>
   <% @stats.each do |stat| %>
     <tr>
-          <td><%= stat.shot %></td>
-          <td><%= stat.skate %></td>
-          <td><%= stat.check %></td>
+      <td><%= stat.overall %></td>
           <td><button><a href="/stats/<%= stat.id %>">Show</a></button>
         </td>
       <td><button><a href="/stats/<%= stat.id %>/edit">Edit</a></button></td>

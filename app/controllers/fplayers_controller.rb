@@ -8,7 +8,19 @@ class FplayersController < ApplicationController
     @fplayer = Fplayer.find_by(id: params[:id])
   end
 
-  def new
+ def new
+   @fantasies = Fantasy.all
+   @players = Player.all
+  end
+  
+  def newplayer
+    @players = Player.all
+    @fantasy = Fantasy.find_by(id: params[:id])
+  end
+  
+  def newfantasy
+    @fantasies = Fantasy.all
+    @player = Player.find_by(id: params[:id])
   end
 
   def create

@@ -16,6 +16,7 @@
   <% @users.each do |user| %>
     <tr>
           <td><%= user.name %></td>
+
           <td><button><a href="/users/<%= user.id %>">Show</a></button>
         </td>
       <td><button><a href="/users/<%= user.id %>/edit">Edit</a></button></td>

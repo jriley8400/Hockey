@@ -6,9 +6,8 @@ class PlayersController < ApplicationController
 
   def show
     @player = Player.find_by(id: params[:id]) 
-    @teams = Team.where(player_id: @player.id )
-
-
+    @teams = Team.where(player_id: @player.id)
+    @stats = Stat.where(player_id: @player.id)
   end
 
   def new
@@ -18,9 +17,10 @@ class PlayersController < ApplicationController
   def create
     @player = Player.new
     @player.bio = params[:bio]
-    @player.stat = params[:stat]
+    @player.image = params[:image]
     @player.name = params[:name]
     @player.team_id = params[:team_id]
+    @player.stat_id = params[:stat_id]
 
     if @player.save
       redirect_to "/players/#{ @player.id }"
@@ -36,7 +36,7 @@ class PlayersController < ApplicationController
   def update
     @player = Player.find_by(id: params[:id])
     @player.bio = params[:bio]
-    @player.stat = params[:stat]    
+    @player.stat_id = params[:stat]    
     @player.name = params[:name]
     @player.image = params[:image]
 

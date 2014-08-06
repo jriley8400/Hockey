@@ -5,10 +5,14 @@
     <label for="name">name</label><br />
     <input id="name" name="name" type="text" />
   </div>
-  <div>
-    <label for="user">user</label><br />
-    <input id="user_id" name="user_id" type="text" />
-  </div>
+     <div>
+    <label for="user_id">User</label><br />
+    <select name="user_id">
+      <% @users.each do |user| %>
+      <option value="<%= user.id %>"><%= user.name %></option>
+      <% end %>
+    </select>
+ </div>
   <div>
     <input type="submit">
   </div>

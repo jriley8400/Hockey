@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
-  root :to => 'sessions#new'
+  root :to => 'homes#show'
   get '/sessions/new' =>'sessions#new'
   get '/sessions/create' => 'sessions#create'
   get '/sessions/destroy' => 'sessions#destroy'
+  get '/new_fplayer_for_player/:id' => 'fplayers#newfantasy'
+  get '/new_fplayer_for_fantasy/:id' => 'fplayers#newplayer'
   # Routes for the Nplayer resource:
   # CREATE
   get '/new_nplayer' => 'nplayers#new'

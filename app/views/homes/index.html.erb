@@ -1,0 +1,25 @@
+<h1>Homes</h1>
+
+<p><a href="/new_home">Add a New Home</a></p>
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+  <% @homes.each do |home| %>
+    <tr>
+          <td><a href="/homes/<%= home.id %>">Show</a>
+        </td>
+      <td><a href="/homes/<%= home.id %>/edit">Edit</a></td>
+      <td><a href="/homes/<%= home.id %>/destroy">Destroy</a></td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
+

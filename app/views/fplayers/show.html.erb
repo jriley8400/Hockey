@@ -1,12 +1,12 @@
-<h1>Fplayer #<%= @fplayer.id %></h1>
+<h1>New player for <%= @fplayer.fantasy.name %></h1>
 
 <div>
   <strong>Player</strong>:<br />
-  <p><%= @fplayer.player_id %></p>
+  <p><%= @fplayer.player.name %></p>
 </div>
 <div>
-  <strong>Fantasy</strong>:<br />
-  <p><%= @fplayer.fantasy_id %></p>
+  <strong>Fantasy Team</strong>:<br />
+  <p><%= @fplayer.fantasy.name %></p>
 </div>
 
 <a href="/fplayers/<%= @fplayer.id %>/edit">Edit</a> |

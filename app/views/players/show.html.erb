@@ -16,12 +16,5 @@
  <ul>
    <li><%= @player.stats.first.overall %></li>
  </ul> 
-<div>Player's Fantasy Teams</div>
-<ul>
-  <% @fantasy.fplayers.each do |fplayers| %>
-  <li><%= fplayers.player.name %></li>
-  <% end %>
-</ul>
-<button><a href="/new_fplayer_for_player/<%= @player.id %>">Add New Fantasy Team</a></button>
 <button><a href="/players/<%= @player.id %>/edit">Edit</a></button>
 <button><a href="/players/<%= @player.id %>/destroy">Destroy</a></button>

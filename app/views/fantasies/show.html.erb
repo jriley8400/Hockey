@@ -1,13 +1,13 @@
 <h1><%= @fantasy.name %></h1>
 
-<h3><strong>User:</strong></h3>
+<h3><strong>Owner:</strong></h3>
 <ul>
-  <li><%= @fantasy.user.name %></li>
+  <li><h4><%= @fantasy.user.name %></h4></li>
 </ul>  
 <div>Fantasy Team's Players</div>
 <ul>
-  <% @fantasy.fplayer.each do |fplayer| %>
-  <li><%= fplayer.player.name %></li>
+  <% @fantasy.fplayers.each do |fplayers| %>
+  <li><a href="/players/<%= fplayers.player.id %>"><%= fplayers.player.name %></a></li>
   <% end %>
 </ul>
 <button><a href="/new_fplayer_for_fantasy/<%= @fantasy.id %>">Add New Player</a></button>

@@ -1,5 +1,4 @@
 class UsersController < ApplicationController
- before_filter :login_required, :except => [:index, :new, :create, :show]
   def index
     @users = User.all
   end
@@ -27,9 +26,9 @@ class UsersController < ApplicationController
 
   def edit
     @user = User.find_by(id: params[:id])
-    if @user.id != session['user_id']
+      @user = User.find_by(id: params[:id])
+    if @user.id != session['uid']
       redirect_to "/users", :notice => "Can't access #{@user.name}, fool"
-    end
   end
 
   def update

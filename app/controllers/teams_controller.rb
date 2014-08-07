@@ -18,6 +18,7 @@ class TeamsController < ApplicationController
     @team.bio = params[:bio]
     @team.name = params[:name]
     @team.player_id = params[:player_id]
+    @team.image_url = params[:image_url]
 
 
     if @team.save
@@ -36,6 +37,7 @@ class TeamsController < ApplicationController
     @team.coach = params[:coach]
     @team.bio = params[:bio]
     @team.name = params[:name]
+    @team.image_url = params[:image_url]    
 
     if @team.save
       redirect_to "/teams/#{ @team.id }"

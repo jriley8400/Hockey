@@ -1,0 +1,25 @@
+<h1>Plays</h1>
+
+<p><a href="/new_play">Add a New Play</a></p>
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+  <% @plays.each do |play| %>
+    <tr>
+          <td><a href="/plays/<%= play.id %>">Show</a>
+        </td>
+      <td><a href="/plays/<%= play.id %>/edit">Edit</a></td>
+      <td><a href="/plays/<%= play.id %>/destroy">Destroy</a></td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
+

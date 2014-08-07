@@ -13,6 +13,10 @@
     <label for="bio">Bio</label><br />
     <textarea id="bio" name="bio" type="text" cols="40" rows="4"><%= @team.bio %></textarea>
   </div>
+    <div>  
+    <label for="image_url">Image</label><br />
+    <input id="image_url" name="image_url" value="<%= @team.image_url  %>" type="text" />
+  </div>
   <div>
     <input type="submit">
   </div>

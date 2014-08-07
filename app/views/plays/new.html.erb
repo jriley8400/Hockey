@@ -1,0 +1,37 @@
+<div class="jumbotron">
+    <div class="container">
+  <h1>Choose Your Teams!</h1>
+  <p>Choose two teams to face off against each other. This page is designed to compare the two teams and crown the better team as champion.</p>
+</div>
+  </div>
+<form action="/create_play">
+   <div class="container">
+     <div class="row">
+       <div class="col-md-4">
+         <label for="fantasy_id"><h3>Fantasy Team #1</h3></label><br />
+    <select name="fantasy_id">
+      <% @fantasies.each do |fantasy| %>
+      <option value="<%= fantasy.id %>"><%= fantasy.name %></option>
+      <% end %>
+    </select>
+ </div>
+       <div class="col-md-4">
+         <h3>VS</h3>
+       </div>
+   <div class="col-md-4">
+     <label for="fantasy_id"><h3>Fantasy Team #2</h3></label><br />
+    <select name="fantasy_id">
+      <% @fantasies.each do |fantasy| %>
+      <option value="<%= fantasy.id %>"><%= fantasy.name %></option>
+      <% end %>
+    </select>
+    </div> 
+   </div>
+ </div>
+  <div>
+    <a href="/plays/show">
+    <input type="submit"> 
+    </a>
+   </div>
+</form>
+

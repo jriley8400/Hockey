@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140806181239) do
+ActiveRecord::Schema.define(version: 20140806234301) do
 
   create_table "fantasies", force: true do |t|
     t.string   "name"
@@ -51,6 +51,11 @@ ActiveRecord::Schema.define(version: 20140806181239) do
     t.integer  "stat_id"
   end
 
+  create_table "plays", force: true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "stats", force: true do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -65,6 +70,7 @@ ActiveRecord::Schema.define(version: 20140806181239) do
     t.datetime "updated_at"
     t.string   "name"
     t.integer  "player_id"
+    t.string   "image_url"
   end
 
   create_table "users", force: true do |t|

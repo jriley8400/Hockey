@@ -5,27 +5,13 @@
   <p><a class="btn btn-primary btn-lg" role="button" href="http://www.easports.com/nhl/hut14">Learn more</a></p>
 </div>
   </div>
-<table class="table">
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Coach</th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-
-  <tbody>
+    <div class="container">
+      <div class="row">
   <% @teams.each do |team| %>
-    <tr>
-      <td><%= team.name %></td>
-          <td><%= team.coach %></td>
-          <td><button><a href="/teams/<%= team.id %>">Show</a></button>
-        </td>
-      <td><button><a href="/teams/<%= team.id %>/edit">Edit</a></button></td>
-        <td><button><a href="/teams/<%= team.id %>/destroy">Destroy</a></button></td>
-    </tr>
+      <div class="col-md-3">
+        <td><h4><strong><%= team.name %></strong></h4></td>
+        <td><a href= "/teams/<%= team.id %>"><img src="<%= team.image_url %>" height="225px" width="250px"></a></td>
+        </div>
   <% end %>
-  </tbody>
-</table>
-
+      </div>
+    </div>

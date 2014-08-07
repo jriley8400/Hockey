@@ -1,4 +1,21 @@
 Rails.application.routes.draw do
+  # Routes for the Play resource:
+  # CREATE
+  get '/new_play' => 'plays#new'
+  get '/create_play' => 'plays#create'
+
+  # READ
+  get '/plays' => 'plays#index'
+  get '/plays/:id' => 'plays#show'
+
+  # UPDATE
+  get '/plays/:id/edit' => 'plays#edit'
+  get '/plays/:id/update' => 'plays#update'
+
+  # DELETE
+  get '/plays/:id/destroy' => 'plays#destroy'
+  #------------------------------
+
   root :to => 'homes#show'
   get '/sessions/new' =>'sessions#new'
   get '/sessions/create' => 'sessions#create'

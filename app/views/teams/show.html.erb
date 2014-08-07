@@ -17,7 +17,7 @@
   <% @team.players.each do |player| %>
   <div class="col-md-3">
     <h3><%= player.name %></h3>
-    <a href="/players/<%= player.id %>"><img src="<%= player.image %>"></a>
+    <a href="/players/<%= player.id %>"><img height="300px" width="225px" src="<%= player.image %>"></a>
     </div>
   <% end %>
   </div>

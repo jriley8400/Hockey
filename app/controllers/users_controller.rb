@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
- before_filter :login_required, :except => [:index, :new, :create]
+ before_filter :login_required, :except => [:index, :new, :create, :show]
   def index
     @users = User.all
   end

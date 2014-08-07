@@ -18,7 +18,7 @@
   <div>
     <% if session['username'] %>
     <% u = User.find_by_name(session['username']) %>
-    You're signed in, <%= username %>
+    You're signed in, <%= session[:username] %>
     <button><a href="/sessions/destroy">Sign Out</a></button>
     <% else %>
       <button><a href="/sessions/new">Sign In</a></button>

@@ -27,8 +27,9 @@ class UsersController < ApplicationController
   def edit
     @user = User.find_by(id: params[:id])
       @user = User.find_by(id: params[:id])
-    if @user.id != session['uid']
+    if @user.id != session['user_id']
       redirect_to "/users", :notice => "Can't access #{@user.name}, fool"
+    end
   end
 
   def update

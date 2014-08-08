@@ -1,3 +1,9 @@
+1. Someone enters 5 stars and a goalie from different teams and pits them against another team. The program chooses the better team.
+
+2. Someone enters average players and an average goalie and faces them against another team with good players. The program chooses the program with the good players.
+
+3. Someone doesn't know who the goalie is for the Chicago Blackhawks. He can check my site to see that their goalies are Corey Crawford and Antti Raanta.
+
 == README
 
 This README would normally document whatever steps are necessary to get the

@@ -8,7 +8,7 @@
    <div class="container">
      <div class="row">
        <div class="col-md-4">
-         <label for="fantasy_id"><h3>Fantasy Team #1</h3></label><br />
+         <label for="fantasy1_id"><h3>Fantasy Team #1</h3></label><br />
     <select name="fantasy1_id">
       <% @fantasies.each do |fantasy| %>
       <option value="<%= fantasy.id %>"><%= fantasy.name %></option>
@@ -20,7 +20,7 @@
        </div>
    <div class="col-md-4">
      <label for="fantasy2_id"><h3>Fantasy Team #2</h3></label><br />
-    <select name="fantasy_id">
+    <select name="fantasy2_id">
       <% @fantasies.each do |fantasy| %>
       <option value="<%= fantasy.id %>"><%= fantasy.name %></option>
       <% end %>

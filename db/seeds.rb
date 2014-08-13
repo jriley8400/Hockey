@@ -263,6 +263,49 @@ Player.create!(team_id: 7, name: "Corey Crawford", bio: "Corey Crawford is a Can
 
 Player.create!(team_id: 7, name: "Antti Raanta", bio: "Antti Raanta is a Finnish professional ice hockey goaltender for the Chicago Blackhawks of the National Hockey League.", image: "http://img.mtv3.fi/mn_kuvat/mtv3/urheilu/1024px/2013/009/1740331.jpg")
 
+Player.create!(team_id: 1, name: "Ryan Getzlaf", bio: "Ryan Getzlaf is a Canadian professional ice hockey centre who currently serves as captain of the Anaheim Ducks of the National Hockey League.", image: "http://www.hockeydb.com/ihdb/stats/photo.php?if=ryan-getzlaf-2014-4312.jpg")
+
+Player.create!(team_id: 1, name: "Ryan Kestler", bio: "Ryan James Kesler is an American professional ice hockey center for the Anaheim Ducks of the National Hockey League.", image: "http://cdn.agilitycms.com/nhlpacom/MediaGroupings/2/27012.jpg")
+
+Player.create!(team_id: 1, name: "Corey Perry", bio: "Corey Perry is a Canadian professional ice hockey winger currently playing for the Anaheim Ducks of the National Hockey League. ", image: "http://cdn.agilitycms.com/nhlpacom/MediaGroupings/2/27038.jpg")
+
+Player.create!(team_id: 1, name: "Saku Koivu", bio: "Saku Antero Koivu is a Finnish professional ice hockey player in the National Hockey League. He began his NHL career with the Montreal Canadiens in 1995–96 after three seasons with TPS of the Finnish SM-liiga.", image: "http://cancer-survivors.com.ua/wp-content/uploads/2013/07/saku-koivu-cancer-story-1.jpg")
+
+Player.create!(team_id: 1, name: "Devante Smith-Pelly", bio: "Devante Smith-Pelly is a Canadian professional ice hockey winger currently playing for the Anaheim Ducks of the National Hockey League. He was selected by the Ducks in the 2nd round of the 2010 NHL Entry Draft.", image: "http://cdn3-www.hockeysfuture.com/assets/uploads/2012/05/devante_smith_pelly_anaheim.jpg")
+
+Player.create!(team_id: 1, name: "Jakob Silfverberg", bio: "Jakob Silfverberg is a Swedish professional ice hockey player, currently playing for the Anaheim Ducks of the National Hockey League. Silfverberg previously played in the NHL with the Ottawa Senators.", image: "http://cdn2-www.hockeysfuture.com/assets/uploads/2012/05/jakob_silfverberg_anaheim.jpg")
+
+Player.create!(team_id: 1, name: "Patrick Maroon", bio: "Patrick Maroon is an American professional ice hockey left winger who currently plays for the Anaheim Ducks of the National Hockey League.", image: "")
+
+Player.create!(team_id: 1, name: "Dany Heatley", bio: "Daniel James Heatley is a Canadian professional ice hockey winger who is currently playing with the Anaheim Ducks of the National Hockey League.", image: "http://cdn.agilitycms.com/nhlpacom/MediaGroupings/2/7414.jpg")
+
+Player.create!(team_id: 1, name: "Kyle Palmieri", bio: "Kyle Charles Palmieri is an American ice hockey forward. He currently plays for the Anaheim Ducks of the National Hockey League.", image: "http://cdn.agilitycms.com/nhlpacom/MediaGroupings/2/32275.jpg")
+
+Player.create!(team_id: 1, name: "Rickard Rakell", bio: "Rickard Rakell is a Swedish professional ice hockey player. He is currently playing for the Anaheim Ducks in the National Hockey League. He was selected 30th overall in the 2011 NHL Entry Draft by the Ducks.", image: "http://cdn3-www.hockeysfuture.com/assets/uploads/2012/05/rickard_rakell_anaheim.jpg")
+
+Player.create!(team_id: 1, name: "Andrew Cogliano", bio: "Andrew Cogliano is a Canadian professional ice hockey player currently playing for the Anaheim Ducks of the National Hockey League. He formerly played for the Edmonton Oilers.", image: "http://cdn.agilitycms.com/nhlpacom/MediaGroupings/2/29090.jpg")
+
+Player.create!(team_id: 1, name: "Matt Beleskey", bio: "Matthew Beleskey is a Canadian professional ice hockey left winger with the Anaheim Ducks of the National Hockey League.", image: "http://i1138.photobucket.com/albums/n539/ceetk/beleskey_zps79798d15.jpg")
+
+Player.create!(team_id: 1, name: "Nate Thompson", bio: "Nate Scott Thompson is an American ice hockey player, currently playing for the Anaheim Ducks of the National Hockey League.", image: "http://cdn.agilitycms.com/nhlpacom/Images/Player-Headshots/27178.jpg")
+
+Player.create!(team_id: 1, name: "Sami Vatanen", bio: "Sami Vatanen is a Finnish professional ice hockey defenceman for the Anaheim Ducks of the National Hockey League. He was drafted by Anaheim in the 4th round of the 2009 NHL Entry Draft.", image: "http://2.cdn.nhle.com/photos/mugs/8475222.jpg")
+
+Player.create!(team_id: 1, name: "Hampus Lindholm", bio: "Hampus Lindholm is a Swedish professional ice hockey defenceman currently playing for the Anaheim Ducks of the NHL. He began his ice hockey career with Jonstorps IF and has previously played with Rögle BK.", image: "http://cdn3-www.hockeysfuture.com/assets/uploads/2012/05/hampus_lindholm_anaheim.jpg")
+
+Player.create!(team_id: 1, name: "Cam Fowler", bio: "Cameron Matthew Fowler is a Canadian-American professional ice hockey defenseman currently playing for the Anaheim Ducks of the National Hockey League. He was selected twelfth overall by the Ducks in the 2010 NHL Entry Draft.", image: "http://l3.yimg.com/bt/api/res/1.2/8CjE2_2yIw4uAKZbPPOVYg--/YXBwaWQ9eW5ld3M7cT04NTt3PTYwMA--/http://media.zenfs.com/en/person/Ysports/cam-fowler-hockey-headshot-photo.jpg")
+
+Player.create!(team_id: 1, name: "Ben Lovejoy", bio: "Benjamin N. Lovejoy is an American professional ice hockey defenseman currently with the Anaheim Ducks of the National Hockey League.", image: "http://cdn.agilitycms.com/nhlpacom/MediaGroupings/2/30434.jpg")
+
+Player.create!(team_id: 1, name: "François Beauchemin", bio: "Joseph Jean-François Vineet Beauchemin is a Canadian professional ice hockey defenceman. He is currently a member of the Anaheim Ducks of the National Hockey League, his second tenure with the organization.", image: "http://ourhistory.canadiens.com/media/958e1f2edcf653d0/small/francois_beauchemin.jpg")
+
+Player.create!(team_id: 1, name: "Bryan Allen", bio: "Bryan Allen is a Canadian professional ice hockey defenceman who currently plays for the Anaheim Ducks of the National Hockey League.", image: "http://cdn.agilitycms.com/nhlpacom/Images/Player-Headshots/6705.jpg")
+
+Player.create!(team_id: 1, name: "John Gibon", bio: "John Gibson is an American ice hockey goaltender who currently plays for the Anaheim Ducks of the National Hockey League.", image: "http://cdn1-www.hockeysfuture.com/assets/uploads/2012/05/john_gibson_anaheim.jpg")
+
+Player.create!(team_id: 1, name: "Frederik Andersen", bio: "Frederik Andersen is a Danish ice hockey goaltender. He currently plays for the Anaheim Ducks of the National Hockey League. Andersen was a member of Denmark's national men's ice hockey team that competed at the 2010 IIHF World Championship. ", image: "http://cdn3-www.hockeysfuture.com/assets/uploads/2012/05/frederik_andersen_anaheim.jpg")
+
+puts "creating stats..."
 Stat.create!(player_id: 1, overall: 92)
 
 Stat.create!(player_id: 2, overall: 89)
@@ -304,3 +347,45 @@ Stat.create!(player_id: 19, overall: 80)
 Stat.create!(player_id: 20, overall: 82)
 
 Stat.create!(player_id: 21, overall: 78)
+
+Stat.create!(player_id:22 , overall:92 )
+
+Stat.create!(player_id:23 , overall:91 )
+
+Stat.create!(player_id:24 , overall:91 )
+
+Stat.create!(player_id:25 , overall:88 )
+
+Stat.create!(player_id:26 , overall:86 )
+
+Stat.create!(player_id:27 , overall:86 )
+
+Stat.create!(player_id:28 , overall:85 )
+
+Stat.create!(player_id:29 , overall:85 )
+
+Stat.create!(player_id:30 , overall:85 )
+
+Stat.create!(player_id:31 , overall:82 )
+
+Stat.create!(player_id:32 , overall:80 )
+
+Stat.create!(player_id:33 , overall:79 )
+
+Stat.create!(player_id:34 , overall:81 )
+
+Stat.create!(player_id:35 , overall:82 )
+
+Stat.create!(player_id:36 , overall:85 )
+
+Stat.create!(player_id:37 , overall:84 )
+
+Stat.create!(player_id:38 , overall:84 )
+
+Stat.create!(player_id:39 , overall:83 )
+
+Stat.create!(player_id:40 , overall:83 )
+
+Stat.create!(player_id:41 , overall:86 )
+
+Stat.create!(player_id:42 , overall:84 )

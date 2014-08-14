@@ -1,5 +1,9 @@
+User.destroy_all
 Team.destroy_all
 Player.destroy_all
+
+puts "Creationg user..."
+User.create!(name: "Jack Riley", email: "jriley8400@gmail.com")
 
 puts "Creating teams..."
 t = Team.new

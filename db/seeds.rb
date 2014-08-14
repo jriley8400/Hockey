@@ -1,3 +1,7 @@
+User.create!([
+  {name: "Jack Riley", password_digest: "$2a$10$5ZS8abPKdJqqNUJpi0WgQ.jakabp7MTXiUD1yXM1RPi1ChtrfkUAW", email: "jriley8400@gmail.com", fantasy_id: nil}
+])
+
 Team.destroy_all
 Player.destroy_all
 

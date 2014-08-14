@@ -297,6 +297,50 @@ Player.create!(team_id: 1, name: "John Gibon", bio: "John Gibson is an American 
 
 Player.create!(team_id: 1, name: "Frederik Andersen", bio: "Frederik Andersen is a Danish ice hockey goaltender. He currently plays for the Anaheim Ducks of the National Hockey League. Andersen was a member of Denmark's national men's ice hockey team that competed at the 2010 IIHF World Championship. ", image: "http://cdn3-www.hockeysfuture.com/assets/uploads/2012/05/frederik_andersen_anaheim.jpg")
 
+Player.create!(team_id: 14, name: "Anze Kopitar", bio: "Anže Kopitar, nicknamed Kopi, is a Slovenian professional ice hockey center and alternate captain of the Los Angeles Kings of the National Hockey League.", image: "http://cdn3-www.hockeysfuture.com/assets/uploads/2012/05/anze_kopitar_los_angeles.jpg")
+
+Player.create!(team_id: 14, name: "Dustin Brown", bio: "Dustin James Brown is an American professional ice hockey right winger who serves as captain of the Los Angeles Kings of the National Hockey League. During the 2012–13 NHL lockout, he moved to the ZSC Lions, the hockey team from Zürich.", image: "http://cdn.agilitycms.com/nhlpacom/MediaGroupings/2/27005.jpg")
+
+Player.create!(team_id: 14, name: "Marian Gaborik", bio: "Marián Gáborík is a Slovak professional ice hockey right winger currently playing for the Los Angeles Kings of the National Hockey League.", image: "https://dqrrfibbe8nxs.cloudfront.net/img/assets/players/headshots/360x360/7377.jpg")
+
+Player.create!(team_id: 14, name: "Justin Williams", bio: "Justin Williams is a Canadian professional ice hockey right winger who plays for the Los Angeles Kings of the National Hockey League. He has also played for the Philadelphia Flyers and the Carolina Hurricanes.", image: "http://cdn.agilitycms.com/nhlpacom/MediaGroupings/2/7439.jpg")
+
+Player.create!(team_id: 14, name: "Jeff Carter", bio: "Jeff Carter is a Canadian professional ice hockey centre for the Los Angeles Kings of the National Hockey League. ", image: "http://cdn.agilitycms.com/nhlpacom/Images/Articles/Content/JeffCarter-POTW.jpg")
+
+Player.create!(team_id: 14, name: "Mike Richards", bio: "Michael Richards is a Canadian professional ice hockey centre for the Los Angeles Kings of the National Hockey League. He previously played for, and was captain of, the Philadelphia Flyers.", image: "http://cdn.agilitycms.com/nhlpacom/Images/Player-Of-The-Week/MikeRichards-POTW-11.15.12-1.jpg")
+
+Player.create!(team_id: 14, name: "Jarret Stoll", bio: "Jarret Lee Stoll is a Canadian professional ice hockey player currently playing for the Los Angeles Kings of the National Hockey League.", image: "https://pbs.twimg.com/profile_images/3592092101/865f5a95a4ad1641313513658c73857a.jpeg")
+
+Player.create!(team_id: 14, name: "Tyler Toffoli", bio: "Tyler Toffoli is a Canadian professional ice hockey player with the Los Angeles Kings of the National Hockey League. He was drafted by the Los Angeles Kings in the second round of the 2010 NHL Entry Draft.", image: "http://cdn1-www.hockeysfuture.com/assets/uploads/2012/05/tyler_toffoli_los_angeles.jpg")
+
+Player.create!(team_id: 14, name: "Jordan Nolan", bio: "Jordan Nolan is a Canadian professional ice hockey player who is currently playing for the Los Angeles Kings of the National Hockey League. He was selected by Los Angeles in the 7th round of the 2009 NHL Entry Draft.", image: "http://www.sootoday.com/userfiles/images/Sports/People/JordanNolan.jpg")
+
+Player.create!(team_id: 14, name: "Tanner Pearson", bio: "Tanner Pearson is a Canadian ice hockey player. He is currently playing with the Los Angeles Kings of the National Hockey League. Pearson was drafted 30th overall in the 2012 NHL Entry Draft by the Los Angeles Kings.", image: "https://dqrrfibbe8nxs.cloudfront.net/img/assets/players/headshots/360x360/33956.jpg")
+
+Player.create!(team_id: 14, name: "Kyle Clifford", bio: "Kyle Frank Clifford is a Canadian ice hockey forward currently playing for the Los Angeles Kings in the National Hockey League. He was selected by the Los Angeles Kings in the 2nd round of the 2009 NHL Entry Draft.", image: "http://cdn.sportsoverdose.com/thumbs/kyle-clifford-13-nhl.jpg")
+
+Player.create!(team_id: 14, name: "Dwight King", bio: "Dwight King is a Canadian professional ice hockey left winger for the Los Angeles Kings of the National Hockey League. He won the Stanley Cup with the Kings in 2012 and in 2014. ", image: "http://mayorsmanor.com/wp-content/uploads/2013/03/King-Dwight-LA-Kings.jpg")
+
+Player.create!(team_id: 14, name: "Trevor Lewis", bio: "Trevor Lewis is an American professional ice hockey player currently playing for the Los Angeles Kings of the National Hockey League.", image: "http://cdn.agilitycms.com/nhlpacom/MediaGroupings/2/29752.jpg")
+
+Player.create!(team_id: 14, name: "Drew Doughty", bio: "Drew Doughty is a Canadian professional ice hockey defenceman who currently plays for the Los Angeles Kings of the National Hockey League.", image: "http://cdn.agilitycms.com/nhlpacom/MediaGroupings/2/31473.jpg")
+
+Player.create!(team_id: 14, name: "Alec Martinez", bio: "Alec Martinez is an American professional ice hockey player. He is currently playing for the Los Angeles Kings of the National Hockey League.", image: "http://i1138.photobucket.com/albums/n539/ceetk/martinez_zpsba0211be.jpg")
+
+Player.create!(team_id: 14, name: "Robyn Regehr", bio: "Robyn Regehr is a Canadian professional ice hockey defenceman for the Los Angeles Kings of the National Hockey League. ", image: "http://cdn.agilitycms.com/nhlpacom/MediaGroupings/2/6720.jpg")
+
+Player.create!(team_id: 14, name: "Slava Voynov", bio: "Vyacheslav Leonidovich Voynov is a Russian professional ice hockey defenceman. He is currently playing for the Los Angeles Kings of the National Hockey League.", image: "http://l3.yimg.com/bt/api/res/1.2/vHik46OecebwctLg4lLB2w--/YXBwaWQ9eW5ld3M7cT04NTt3PTYwMA--/http://media.zenfs.com/en/person/Ysports/slava-voynov-hockey-headshot-photo.jpg")
+
+Player.create!(team_id: 14, name: "Matt Greene", bio: "Matthew Greene is an American professional ice hockey defenseman who currently plays for the Los Angeles Kings of the National Hockey League.", image: "http://cdn.agilitycms.com/nhlpacom/Images/Player-Headshots/25857.jpg")
+
+Player.create!(team_id: 14, name: "Jake Muzzin", bio: "Jacob Muzzin is a Canadian professional ice hockey defenceman currently playing for the Los Angeles Kings of the National Hockey League.", image: "http://i1138.photobucket.com/albums/n539/ceetk/muzzin_zps90ce6c33.jpg")
+
+Player.create!(team_id: 14, name: "Jeff Schultz", bio: "Jeff Schultz is a Canadian ice hockey defenceman who is currently playing for the Los Angeles Kings in the National Hockey League. He has previously played for the Washington Capitals.", image: "http://l.yimg.com/bt/api/res/1.2/RKqyZLUOZtm4DMJ6EXQbpA--/YXBwaWQ9eW5ld3M7cT04NTt3PTYwMA--/http://media.zenfs.com/en/person/Ysports/jeff-schultz-hockey-headshot-photo.jpg")
+
+Player.create!(team_id: 14, name: "Jonathan Quick", bio: "Jonathan Douglas Quick is an American professional ice hockey goaltender for the Los Angeles Kings of the National Hockey League. The Kings selected Quick with the 72nd overall pick in the 2005 NHL Entry Draft.", image: "http://cdn2-www.hockeysfuture.com/assets/uploads/2012/05/jonathan_quick.jpg")
+
+Player.create!(team_id: 14, name: "Martin Jones", bio: "Martin Jones is a Canadian ice hockey goaltender for the Los Angeles Kings of the National Hockey League.", image: "http://cdn3-www.hockeysfuture.com/assets/uploads/2012/05/martin_jones_los_angeles.jpg")
+
 puts "creating stats..."
 Stat.create!(player_id: 1, overall: 92)
 

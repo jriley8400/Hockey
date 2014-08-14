@@ -1,9 +1,5 @@
-User.destroy_all
 Team.destroy_all
 Player.destroy_all
-
-puts "Creationg user..."
-User.create!(name: "Jack Riley", email: "jriley8400@gmail.com" password_digest: "5225")
 
 puts "Creating teams..."
 t = Team.new

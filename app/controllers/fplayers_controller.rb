@@ -6,7 +6,7 @@ class FplayersController < ApplicationController
 
   def show
     @fplayer = Fplayer.find_by(id: params[:id])
-    @fantasies = Fantasy.all
+    @fantasy = Fantasy.find_by(id: params[:id])
   end
 
  def new

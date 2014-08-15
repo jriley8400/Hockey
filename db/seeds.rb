@@ -271,7 +271,7 @@ Player.create!(team_id: 1, name: "Devante Smith-Pelly", bio: "Devante Smith-Pell
 
 Player.create!(team_id: 1, name: "Jakob Silfverberg", bio: "Jakob Silfverberg is a Swedish professional ice hockey player, currently playing for the Anaheim Ducks of the National Hockey League. Silfverberg previously played in the NHL with the Ottawa Senators.", image: "http://cdn2-www.hockeysfuture.com/assets/uploads/2012/05/jakob_silfverberg_anaheim.jpg")
 
-Player.create!(team_id: 1, name: "Patrick Maroon", bio: "Patrick Maroon is an American professional ice hockey left winger who currently plays for the Anaheim Ducks of the National Hockey League.", image: "")
+Player.create!(team_id: 1, name: "Patrick Maroon", bio: "Patrick Maroon is an American professional ice hockey left winger who currently plays for the Anaheim Ducks of the National Hockey League.", image: "http://cdn.agilitycms.com/nhlpacom/MediaGroupings/2/30796.jpg")
 
 Player.create!(team_id: 1, name: "Dany Heatley", bio: "Daniel James Heatley is a Canadian professional ice hockey winger who is currently playing with the Anaheim Ducks of the National Hockey League.", image: "http://cdn.agilitycms.com/nhlpacom/MediaGroupings/2/7414.jpg")
 
@@ -429,3 +429,47 @@ Stat.create!(player_id:40 , overall:83 )
 Stat.create!(player_id:41 , overall:86 )
 
 Stat.create!(player_id:42 , overall:84 )
+
+Stat.create!(player_id:43 , overall:91 )
+
+Stat.create!(player_id:44 , overall:92 )
+
+Stat.create!(player_id:45 , overall:92 )
+
+Stat.create!(player_id:46 , overall:90 )
+
+Stat.create!(player_id:47 , overall:88 )
+
+Stat.create!(player_id:48 , overall:87 )
+
+Stat.create!(player_id:49 , overall:87 )
+
+Stat.create!(player_id:50 , overall:85 )
+
+Stat.create!(player_id:51 , overall:85 )
+
+Stat.create!(player_id:52 , overall:82 )
+
+Stat.create!(player_id:53 , overall:83 )
+
+Stat.create!(player_id:54 , overall:80 )
+
+Stat.create!(player_id:55 , overall:78 )
+
+Stat.create!(player_id:56 , overall:89 )
+
+Stat.create!(player_id:57 , overall:88 )
+
+Stat.create!(player_id:58 , overall:87 )
+
+Stat.create!(player_id:59 , overall:87 )
+
+Stat.create!(player_id:60 , overall:85 )
+
+Stat.create!(player_id:61 , overall:83 )
+
+Stat.create!(player_id:62 , overall:83 )
+
+Stat.create!(player_id:63 , overall:92 )
+
+Stat.create!(player_id:64 , overall:85 )

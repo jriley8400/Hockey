@@ -28,10 +28,6 @@ ActiveRecord::Schema.define(version: 20140807193853) do
     t.integer  "fantasy_id"
   end
 
-  create_table "fwinners", force: true do |t|
-    t.string "winner"
-  end
-
   create_table "homes", force: true do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -65,10 +61,6 @@ ActiveRecord::Schema.define(version: 20140807193853) do
     t.datetime "updated_at"
     t.integer  "player_id"
     t.integer  "overall"
-  end
-
-  create_table "table_fwinners", force: true do |t|
-    t.string "winner"
   end
 
   create_table "teams", force: true do |t|

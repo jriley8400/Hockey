@@ -7,6 +7,7 @@ class PlaysController < ApplicationController
   def show
     @play = Play.find_by(id: params[:id])
     @winner = Fplayer.first
+    @fantasy = Fantasy.find_by(id: params[:id])
   end
 
   def new
